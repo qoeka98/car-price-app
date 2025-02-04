@@ -8,7 +8,7 @@ def run_eda():
     st.info('데이터를 분석합니다')  
 
     # CSV 파일 불러오기
-    df = pd.read_csv('./data/Car_purchasing_Data.csv')
+    df = pd.read_csv('./data/Car_Purchasing_Data.csv')
     st.dataframe(df)
 
     # 버튼 클릭 시 통계 데이터 보기
