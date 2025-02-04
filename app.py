@@ -1,8 +1,8 @@
 import streamlit as st
 
-from model.ui.eda import run_eda
-from model.ui.hom import run_home
-from model.ui.ml import run_ml
+from ui.eda import run_eda
+from ui.hom import run_home
+from ui.ml import run_ml
 
 def main():
     
